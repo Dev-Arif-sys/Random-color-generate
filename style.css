@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #349464;
+}
+
+h2{
+    font-size: 3rem;
+    margin: 1em 0;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 8px;
+    color: azure;
+
+}
+button{
+    padding: .8em 1.5em;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: azure;
+background-color: rgb(5, 5, 37);
+outline: none;
+border: none;
+border-radius: none;
+cursor: pointer;
+}
+
+div{
+    display: flex;
+    align-items: center;
+   gap: 10px;
+}
+.para{
+    font-size: 2rem;
+    margin-left: 1em;
+    color: azure;
+    
+}
